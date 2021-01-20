@@ -9,7 +9,8 @@
 	font-family: lato;
 	font-weight: 300;
 	box-sizing: border-box;
-	flex-basis: 50%;
+	flex-basis: 10%;
+	flex-grow: 1;
 }
 
 .box-1 {
@@ -20,7 +21,6 @@
 }
 .box-3 {
 	background: #f0a30a;
-	flex-basis: 100%;
 }
 .box-4 {
 	background: #e3c800;
@@ -30,7 +30,6 @@
 }
 .box-6 {
 	background: #60a917;
-	flex-basis: 100%;
 }
 .box-7 {
 	background: #00aba9;
@@ -40,7 +39,6 @@
 }
 .box-9 {
 	background: #aa00ff;
-	flex-basis: 100%;
 }
 
 /*  LAYOUT STYLES */
@@ -48,5 +46,7 @@
 	display: flex;
 	border: 8px solid black;
 	height: 55vh;
+	justify-content: space-between;
+	align-items: center;
 	flex-wrap: wrap;
 }
