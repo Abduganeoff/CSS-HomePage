@@ -45,7 +45,8 @@
 	display: flex;
 	border: 8px solid black;
 	height: 80vh;
-	flex-direction: row-reverse;
-	justify-content: center;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+	align-items: center;
 }
